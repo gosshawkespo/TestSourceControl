@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("SourceControlTest")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyDescription("This is the first project (container) to test Source Control")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("SourceControlTest")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
