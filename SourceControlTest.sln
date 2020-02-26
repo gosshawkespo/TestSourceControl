@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SourceControlTest", "SourceControlTest\SourceControlTest.vbproj", "{F75FB881-AA12-4FED-9894-07FE17F67D47}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SourceControlTest_Project2", "SourceControlTest_Project2\SourceControlTest_Project2.vbproj", "{E96EEDA4-2A57-41E1-B138-18FF048ED2CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F75FB881-AA12-4FED-9894-07FE17F67D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75FB881-AA12-4FED-9894-07FE17F67D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75FB881-AA12-4FED-9894-07FE17F67D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96EEDA4-2A57-41E1-B138-18FF048ED2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96EEDA4-2A57-41E1-B138-18FF048ED2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96EEDA4-2A57-41E1-B138-18FF048ED2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96EEDA4-2A57-41E1-B138-18FF048ED2CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
