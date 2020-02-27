@@ -24,6 +24,9 @@ Partial Class Project1_Form1
     Private Sub InitializeComponent()
         Me.btnTEST1 = New System.Windows.Forms.Button()
         Me.txtOutput1 = New System.Windows.Forms.TextBox()
+        Me.sts = New System.Windows.Forms.StatusStrip()
+        Me.StsLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.sts.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnTEST1
@@ -42,15 +45,33 @@ Partial Class Project1_Form1
         Me.txtOutput1.Size = New System.Drawing.Size(100, 20)
         Me.txtOutput1.TabIndex = 1
         '
+        'sts
+        '
+        Me.sts.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StsLabel1})
+        Me.sts.Location = New System.Drawing.Point(0, 239)
+        Me.sts.Name = "sts"
+        Me.sts.Size = New System.Drawing.Size(697, 22)
+        Me.sts.TabIndex = 2
+        Me.sts.Text = "StatusStrip1"
+        '
+        'StsLabel1
+        '
+        Me.StsLabel1.Name = "StsLabel1"
+        Me.StsLabel1.Size = New System.Drawing.Size(120, 17)
+        Me.StsLabel1.Text = "ToolStripStatusLabel1"
+        '
         'Project1_Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(697, 261)
+        Me.Controls.Add(Me.sts)
         Me.Controls.Add(Me.txtOutput1)
         Me.Controls.Add(Me.btnTEST1)
         Me.Name = "Project1_Form1"
         Me.Text = "Project 1 Form 1"
+        Me.sts.ResumeLayout(False)
+        Me.sts.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -58,4 +79,6 @@ Partial Class Project1_Form1
 
     Friend WithEvents btnTEST1 As Button
     Friend WithEvents txtOutput1 As TextBox
+    Friend WithEvents sts As StatusStrip
+    Friend WithEvents StsLabel1 As ToolStripStatusLabel
 End Class
